@@ -172,7 +172,7 @@ function createVideoTexture() {
   video.loop = true;
 
   const hlsUrl =
-    "https://customer-2qqx87orhla11tfu.cloudflarestream.com/aed3641ac7d831d9b845bede45881698/manifest/video.m3u8"; //customer-2qqx87orhla11tfu.cloudflarestream.com/aed3641ac7d831d9b845bede45881698/manifest/video.m3u8";
+    "https://customer-2qqx87orhla11tfu.cloudflarestream.com/8f460269edbf9aabbd9b0168bef37813/manifest/video.m3u8";
 
   if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = hlsUrl;
