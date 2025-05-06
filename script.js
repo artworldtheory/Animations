@@ -127,7 +127,7 @@ function init() {
   const loader = new GLTFLoader(manager);
   loader.load("assets/model/model.gltf", function (gltf) {
     model = gltf.scene;
-    model.position.set(0, 0, 0);
+    model.position.set(5, 0, 0);
     model.scale.set(200, 200, 200);
     scene.add(model);
 
